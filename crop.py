@@ -31,8 +31,8 @@ DiscSeg_size = 512
 CDRSeg_size = 400
 
 #data_type = '.jpg'
-#parent_dir = os.path.dir('/home/gpu3/shubham/refuge/data/Tsegmentation/complete_refuge')
-#data_img_path = path.abspath(path.join(parent_dir, 'data', 'REFUGE-Training400', 'Training400', 'Glaucoma'))
+#parent_dir = os.path.dir('/home/gpu3/shubham/skin/data/Tsegmentation/skin')
+#data_img_path = path.abspath(path.join(parent_dir, 'data', 'skin-Training400', 'Training400', 'Glaucoma'))
 #label_img_path = path.abspath(path.join(parent_dir, 'data', 'Annotation-Training400',
 #                                        'Annotation-Training400', 'Disc_Cup_Masks', 'Glaucoma'))
 
