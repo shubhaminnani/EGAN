@@ -1,7 +1,3 @@
-'''
-Created by SJWANG  07/21/2018
-For refuge image segmentation
-'''
 import tensorflow as tf
 tf.compat.v1.disable_eager_execution()
 #physical_devices =tf.config.experimental.list_physical_devices('GPU')
