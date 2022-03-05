@@ -1,10 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Jun  7 16:11:07 2020
-
-@author: gpu3
-"""
 from skimage import io
 import os
 from tqdm import tqdm
@@ -12,8 +5,8 @@ import numpy as np
 import cv2
 from glob import glob
 
-img_files = sorted(glob('/home/gpu3/shubham/refuge/Tsegmentation/complete/images/*'))
-mask_files = sorted(glob('/home/gpu3/shubham/refuge/Tsegmentation/complete/mask/*'))
+img_files = sorted(glob('/home/gpu3/shubham/skin/Tsegmentation/complete/images/*'))
+mask_files = sorted(glob('/home/gpu3/shubham/skin/Tsegmentation/complete/mask/*'))
 i=0
 for i in range(len(img_files)):
     assert img_files[i].split('/')[-1].split('.')[0]== mask_files[i].split('/')[-1].split('.')[0]
