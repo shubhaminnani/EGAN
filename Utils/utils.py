@@ -1,8 +1,3 @@
-'''
-Created by SJWANG  07/21/2018
-For refuge image segmentation
-'''
-
 import numpy as np
 import os
 import cv2
