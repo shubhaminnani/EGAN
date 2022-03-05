@@ -1,7 +1,3 @@
-'''
-Created by SJWANG  07/21/2018
-For refuge image segmentation
-'''
 # from __future__ import print_function
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 import numpy as np 
