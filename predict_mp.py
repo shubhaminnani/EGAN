@@ -1,15 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Jun 20 19:21:49 2020
-
-@author: gpu3
-"""
-
-'''
-Created by SJWANG  07/27/2018
-For refuge image segmentation
-'''
 import tensorflow as tf
 tf.compat.v1.disable_eager_execution()
 from multiprocessing import Pool, cpu_count
