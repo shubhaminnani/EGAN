@@ -8,15 +8,16 @@ Automatic lesion segmentation is a critical computer aided diagnosis (CAD) tool 
 ## Getting Started
 
 ### Install Requirements
+
+``` bash
 tensorflow 2.x
 keras=2.2.4
 opencv
 tqdm
 scikit-image
-
+```
 ### Prerequisites
-GPU
-CUDA
+-GPU, CUDA
 
 ### Running Evaluation
 - Clone this repo:
