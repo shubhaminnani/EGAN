@@ -1,7 +1,3 @@
-'''
-Created by SJWANG  07/27/2018
-For refuge image segmentation
-'''
 import tensorflow as tf
 tf.compat.v1.disable_eager_execution()
 
@@ -41,7 +37,7 @@ if __name__ == '__main__':
 #    file_test_list= file_test_list[50:]
     file_test_list = [file for file in os.listdir(data_img_path) if file.lower().endswith(data_type)]
     random.shuffle(file_test_list)
-    print("==>[REFUGE challenge]\ttotal image number: {}\n".format(len(file_test_list)))
+    print("==>[SKIN challenge]\ttotal image number: {}\n".format(len(file_test_list)))
     file_test_list = file_test_list[:480]
     ''' change to path '''
     DiscSeg_model_path = "./weights/Model_DiscSeg_pretrain.h5"
