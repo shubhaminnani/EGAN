@@ -18,7 +18,7 @@ scikit-image
 GPU
 CUDA
 
-###Running Evaluation
+### Running Evaluation
 - Clone this repo:
 ```bash
 git clone https://github.com/shubhaminnani/EGAN.git
