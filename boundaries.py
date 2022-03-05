@@ -1,10 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Jun 29 14:29:04 2020
-
-@author: gpu3
-"""
 import numpy as np
 import os
 from skimage import io
