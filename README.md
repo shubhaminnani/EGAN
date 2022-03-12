@@ -15,6 +15,7 @@ keras=2.2.4
 opencv
 tqdm
 scikit-image
+segmentation_models
 ```
 ### Prerequisites
 -GPU, CUDA
