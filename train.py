@@ -65,9 +65,6 @@ if __name__ == '__main__':
     total_epoch_stop = total_epoch / 2
     power = 0.9
 
-    if dataset == "refuge/":
-        total_num = 320
-
     weights_path = "weights/" + dataset_t + "/DA_patch_fpn/_{epoch:04d}.hdf5"
     load_from = "./weights/fpn_eff4_2.h5"
 
