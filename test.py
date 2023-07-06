@@ -1,6 +1,5 @@
 '''
 Created by Shubham  07/21/2019
-For refuge image segmentation
 '''
 
 import numpy as np
@@ -63,17 +62,11 @@ if __name__ == '__main__':
     DiscSeg_size = 640
     CDRSeg_size = 512
 
-    data_type = '.png'
-    save_data_type = 'png'
-    dataset = "Drishti-GS"
 
     scale = False
     both = True
 
     phase = "test"
-    if dataset == "refuge":
-        data_type = '.jpg'
-        phase = "test0"
 
     data_img_path = '../data/' + dataset + '/'+ phase +'/image/'
     data_save_path = './data/' + dataset + '/' + phase + '/OSAL_epoch100/'
